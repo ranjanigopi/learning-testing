@@ -26,6 +26,11 @@ describe('given 2 numbers', () => {
             expect(divide(4, 0)).toEqual(Infinity);
         })
     });
+    describe('when squaring', () => {
+        it('should return multiple of itself', () => {
+            expect(divide(4)).toEqual(16);
+        })
+    })
 });
 
 // given
