@@ -12,5 +12,8 @@
   "dependencies": {
     "vite": "^5.4.11",
     "vitest": "^2.1.8"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.8"
   }
 }

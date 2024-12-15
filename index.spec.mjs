@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { add, subtract, multiply } from "./index.mjs";
+import { add, subtract, multiply, divide } from "./index.mjs";
 
 describe('given 2 numbers', () => {
     describe('when added', () => {
@@ -16,6 +16,15 @@ describe('given 2 numbers', () => {
         it('should return the product', () => {
             expect(multiply(2, 3)).toEqual(6);
         });
+    });
+    describe('when divided', () => {
+        it('should return the quotient', () => {
+            expect(divide(4, 2)).toEqual(2);
+        });
+
+        it('should return infinity if b is 0', () => {
+            expect(divide(4, 0)).toEqual(Infinity);
+        })
     });
 });
 

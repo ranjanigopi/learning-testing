@@ -7,3 +7,9 @@ unit test - index.spec.js
 
 TDD
 Gherkin syntax
+Coverage
+  - scenario coverage - business requirement
+  - code coverage - developer
+
+New changes are tested
+Old system is not regressed
