@@ -11,3 +11,5 @@ export const divide = (a, b) => {
 
     return a / b;
 }
+
+export const square = (a) => a * a;
