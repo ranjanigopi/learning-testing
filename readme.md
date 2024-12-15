@@ -13,3 +13,5 @@ Coverage
 
 New changes are tested
 Old system is not regressed
+
+CI/CD pipeline

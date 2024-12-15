@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { add, subtract, multiply, divide } from "./index.mjs";
+import { add, subtract, multiply, divide, square } from "./index.mjs";
 
 describe('given 2 numbers', () => {
     describe('when added', () => {
@@ -28,7 +28,7 @@ describe('given 2 numbers', () => {
     });
     describe('when squaring', () => {
         it('should return multiple of itself', () => {
-            expect(divide(4)).toEqual(16);
+            expect(square(4)).toEqual(16);
         })
     })
 });
